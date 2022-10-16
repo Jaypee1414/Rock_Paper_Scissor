@@ -7,17 +7,20 @@
 body{
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #cecece;
+    font-size: 15px;
 }
 
 
 button{
     border-radius: 10px;
     margin: 15px 5px;
+    width: 18%;
+    margin-top: 50px;
 }
 
 img{
-    height: 100px;
-    width: 100px;
+    height: 7rem;
+    width: 100%;
 }
 
 
@@ -32,3 +35,54 @@ img{
     background-color: aqua;
 }
 
+
+/* @media (max-width: 50rem){
+.Project{
+        text-align: center;
+        align-items: center;
+        border-radius: 10px;
+        border: 5px solid black;
+        padding: 50px 0;
+        left: 0;
+        margin-top: 200px;
+        background-color: aqua;
+        width: 100%;
+    }
+} */
+
+#player{
+    display: inline-block;
+}
+
+#computer{
+    display: inline-block;
+    margin-left: 20%;
+}
+
+#result{
+    padding-top: 5%;
+}
+
+.score{
+    color: white;
+    background-color: black;
+    width: 10%;
+    height: 4rem;
+    top: 15vh;
+    position: absolute;
+    left: 44%;
+    font-size: 2rem;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid wheat;
+    border-radius: 10px ;
+}
+
+.player{
+    display: inline-block;
+}
+.robot{
+    display: inline-block;
+}
